@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{f63285e7-5b58-43c0-b7fd-a303e866342a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon">
+      <UniqueIdentifier>{25061e46-b806-4e04-8999-82b5ffce5f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Soldier">
+      <UniqueIdentifier>{56b8e8ce-02ea-4b92-a1b5-2b954e0aee5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon\Types">
+      <UniqueIdentifier>{86054f0a-4828-448e-adf0-52b337325b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon\Types\Rifle">
+      <UniqueIdentifier>{14e1ee19-a9be-405c-95dd-e212bffc28df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon\Types\Revolver">
+      <UniqueIdentifier>{f3785dcc-7c5c-496b-b609-c31b5ffddc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon\Types\Shotgun">
+      <UniqueIdentifier>{2fe1aff3-9d80-4c33-b189-bd67f1558b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{78502b0b-e8df-4006-a9a7-cb2075135142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\IView">
+      <UniqueIdentifier>{1c708e8f-746d-4462-a6e3-6aa5606cf42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\View Class">
+      <UniqueIdentifier>{95893fef-5302-40f9-bfe5-4ec8ae40ff00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenter">
+      <UniqueIdentifier>{c1d7abd3-77f7-4be3-ae2a-3444c761d88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenter\Presenter Class">
+      <UniqueIdentifier>{93c63d26-d3cd-443b-a186-cfe932ebb42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapon\Factory">
+      <UniqueIdentifier>{25aa19d5-e602-413e-ba14-e6abf756bcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Domain\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Domain\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Presenter\Presenter Class</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>View\View Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Domain\Weapon\Types\Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Domain\Weapon\Types\Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.cpp">
+      <Filter>Domain\Weapon\Types\Revolver</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponFactory.cpp">
+      <Filter>Domain\Weapon\Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soldier.h">
+      <Filter>Domain\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Domain\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>View\IView</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
+      <Filter>Presenter\Presenter Class</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>View\View Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Domain\Weapon\Types\Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Domain\Weapon\Types\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Domain\Weapon\Types\Revolver</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFactory.h">
+      <Filter>Domain\Weapon\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
